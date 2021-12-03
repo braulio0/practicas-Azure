@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>    
+    <link rel="stylesheet" href="EI1.css">
+
+</head>
+
+
+<body>
+
+   <div id="container">
+       <header>
+           <h1>CALCULADORA </h1>
+           
+       </header>
+
+       <nav>
+           <ul>
+               <li><a href="Index.html">FISICA</a></li>
+               <li><a href="Index.html">FISICA</a></li>
+               <li><a href="Index.html">FISICA</a></li>
+            
+           </ul>
+       </nav>
+
+       
+   <div class="clearfix"></div>
+
+       <section id="content1">
+           <article class=" article">
+            <form id="F1">
+                <h1>Velocidad</h1>
+                <h1>(V=d/t)</h1>
+                <label for="valor1">INSERTA LA DISTANCIA:</label><br>
+                <input type="number"   id="valor1" class="B1" autofocus placeholder="Escribe un numero"><br>
+                <div id="error1"></div>
+                <label for="valor2">INSERTA EL TIEMPO:</label><br>
+                <input type="number"  id="valor2" autofocus placeholder="Escribe un numero" ><br>
+                <div id="error2"></div>
+               <input  id="boton1" type="submit" value="Calcular">
+               <p> El resultado es :<span id="R1"></span>(metro/seg)</p>
+            </form>
+            
+           </article>
+       </section>
+
+       <section id="content2">
+        <article class=" article">
+            <form id="F2">
+                <h1>Fuerza</h1>
+                <h1>(F=m . a)</h1>
+                <label for="valor3">INSERTA LA MASA:</label><br>
+                <input type="number"  id="valor3" autofocus placeholder="Escribe un numero"><br>
+                <div id="error3"></div>
+                <label for="valor4">INSERTA LA ACELERACION:</label><br>
+                <input type="number" id="valor4" autofocus placeholder="Escribe un numero"><br>
+                <div id="error4"></div>
+                <input  id="boton2" type="submit" value="Calcular">
+               <p> El resultado es :<span id="R2"></span>Newtons</p>
+            </form>
+           </article>
+
+    </section>
+    <section id="content3">
+        <article class=" article">
+            <form id="F3">
+                <h1>Trabajo</h1>
+                <h1>(T=F . D)</h1>
+                <label for="valor5">INSERTA LA FUERZA:</label><br>
+                <input type="number"  id="valor5" autofocus placeholder="Escribe un numero"><br>
+                <div id="error5"></div>
+                <label for="valor6">INSERTA LA DISTANCIA:</label><br>
+                <input type="number"  id="valor6" autofocus placeholder="Escribe un numero"><br>
+                <div id="error6"></div>
+                <input  id="boton3" type="submit" value="Calcular">
+               <p> El resultado es :<span id="R3"></span>J</p>
+            </form>
+
+        </article>
+
+    </section>
+
+    <section id="content4">
+        <article class=" article">
+            <form id="F4">
+                <h1>Densidad</h1>
+                <h1>(d=m / v)</h1>
+                <label for="valor7">INSERTA LA MASA:</label><br>
+                <input type="number"  id="valor7" autofocus placeholder="Escribe un numero"><br>
+                <div id="error7"></div>
+                <label for="valor8">INSERTA EL VOLUMEN:</label><br>
+                <input type="number"  id="valor8" autofocus placeholder="Escribe un numero"><br>
+                <div id="error8"></div>
+                <input  id="boton4" type="submit" value="Calcular">
+               <p> El resultado es :<span id="R4"></span>(Kg/m3)</p>
+            </form>
+        </article>
+
+    </section>
+
+
+
+       <div class="clearfix"></div>
+
+       <footer>
+         
+       </footer>
+   </div>
+
+
+   <script type="text/javascript" src="js/f1.js" ></script>
+</body>
+
+
+
+
+</html>

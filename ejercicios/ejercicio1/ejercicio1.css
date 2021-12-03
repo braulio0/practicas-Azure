@@ -1,0 +1,52 @@
+h1{
+	font-family: Arial;
+	color:blue;
+}
+
+p[title^="parr"]{
+	color:green;
+}
+
+p[class~="lineasSuperior"]{
+	border-top:20px solid rgba(20,71,140,.9);
+}
+
+p[class~="lineasInferior"]{
+	border-bottom:solid red;
+}
+
+p[class~="lineasDerecha"]{
+	border-left: solid red;
+}
+
+p[class~="lineasIzquierda"]{
+	border-right: solid red;
+}
+
+p[class~="izquierdaSuperiorRedonda"]{
+	border-top-left-radius: .5em;
+}
+
+p[class~="izquierdaInferiorRedonda"]{
+	border-bottom-left-radius: .5em;
+}
+
+/*estilos del ejercicio palabra hola mundo*/
+p[class~="lineaSuperior"]{
+	color: red;
+	border-top:dashed black;
+}
+
+p[class~="lineaInferior"]{
+	border-bottom:dashed black;
+}
+
+p[class~="lineaDerecha"]{
+	border-left: dashed black;
+	border-top-left-radius: 12px;
+}
+
+p[class~="lineaIzquierda"]{
+	border-right: dashed black;
+	border-bottom-right-radius: 12px
+}
